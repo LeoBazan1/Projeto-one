@@ -1,0 +1,1 @@
+O projeto é um desafio formulado pelo ONE, projeto iniciado através de uma parceria entre ORACLE e ALURA. O projeto é uma página web interativa que permite o usuário colocar nomes para sortear, o nome do projeto é Sorteando um Amigo.
