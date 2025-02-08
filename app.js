@@ -70,3 +70,22 @@ function adicionarAmigo() {
         alert('Por favor, insira um nome.');
     }
 }
+
+
+function sortearAmigo() {
+    
+    if (amigos.length === 0) {
+        alert('Não há amigos para sortear. Por favor, adicione amigos.');
+        return;
+    }
+
+ 
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
+
+    const amigoSorteado = amigos[indiceAleatorio];
+
+
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = `O amigo secreto sorteado é: <strong>${amigoSorteado}</strong>`;
+}
